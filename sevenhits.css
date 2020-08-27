@@ -1,0 +1,131 @@
+body{
+background:silver;
+font-size:14px;
+
+}
+#header{
+margin:10px;
+padding:1px;
+background-color:red;
+//background-image:url("b6.jpg");
+text-align:center;
+font-size:170%;
+
+}
+
+#navbar ul{
+text-align:center;
+margin:10px;
+background-color:black;
+padding:9px;
+border-radius:5px;
+}
+
+#navbar ul li{
+display:inline;
+font-size:20px;
+padding:20px;//link athara paratharaya
+
+
+}
+
+#navbar ul li a{
+margin:25px;
+text-decoration:none;
+//border:1px solid white;
+//border-radius:9px;
+padding:9px;
+color: #32c8ad;
+}
+
+#navbar ul li a:hover{
+background-color:red;
+color:white;
+
+}
+
+h2{
+color:yellowgreen;
+font-style:bold;
+Font-style:italic;
+font-size:30px;
+}
+
+.main{
+text-align:center;
+background-image:url("b3.jpg"); 
+margin:10px;
+padding:10px;
+border-radius:5px; 
+color:darkorange;
+
+}
+
+.box1{
+border:2px solid rgba(255,255,255,0.2);
+background: rgba(255,255,255,0.2);
+width:210px;
+height:230px;
+text-align:center;
+padding:10px;
+display:inline-block;
+margin:0px 80px 80px 0px;
+box-shadow:5px 10px black;
+border-radius:9px;
+}
+
+.box1:hover{
+transform:scale(1.5);
+transition: transform 0.2s;
+cursor: pointer;
+}
+
+.box1 a{
+color:black;
+text-decoration:none;
+font-size:20px;
+font-weight:bold;
+}
+
+.box1 a:hover{
+color:aqua;
+cursor: pointer;
+}
+
+.zoom{
+transition:transform .2s;
+margin:10px;
+}
+
+.zoom:hover{
+-ms-transform:scale(1.15);
+-webkit-transform:scale(1.15);
+transform: scale(1.15);
+cursor: pointer;
+}  
+
+.box1 img{
+width:190px;
+height:180px;
+border-radius:9px;
+}
+
+footer{
+background-color:purple;
+color:pink;
+clear:both;
+text-align:center;
+margin:10px;
+padding:3px;
+}
+
+#logo{
+position:absolute;
+height:100px;
+width:100px;
+float:left;
+
+top:20px;
+left:30px;
+
+}
